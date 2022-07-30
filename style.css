@@ -14,7 +14,7 @@ nav {
   align-items: center;
   background-color: #21222a;
   height: 100px;
-  padding: 20px 30px;
+  padding: 30px 30px;
 }
 
 .nav--logo_text,
@@ -25,13 +25,14 @@ nav {
 .nav--logo_text {
   margin: right;
   color: #61dafb;
-  font-weight: 600;
-  font-size: 22 px;
+  font-weight: 400;
+  font-size: 24 px;
 }
 
 .nav--title {
   color: #deebf8;
   font-weight: 600;
+  margin: 20px;
 }
 
 .nav--icon {
@@ -42,7 +43,28 @@ nav {
 main {
   padding: 60px 30px;
   color: white;
-  background-image: url(./images/react-icon-large.png);
+  background-image: url(./images/react-icon-smallcopy.png);
   background-repeat: no-repeat;
   background-position: right 75%;
+}
+
+.main--title {
+  margin: 0;
+  font-size: 39px;
+  letter-spacing: -0.05em;
+}
+
+.main--facts {
+  margin-top: 46px;
+  max-width: 400px;
+}
+
+.main--facts > li {
+  line-height: 19px;
+  padding-block: 10px;
+}
+
+.main--facts > li::marker {
+  font-size: 1.6rem;
+  color: #61dafb;
 }
